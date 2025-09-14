@@ -1,3 +1,46 @@
+@media(max-width: 1800px) {
+    .container {
+        max-width: 1625px;
+    }
+    .services {
+        max-width: 1625px;
+        &__cards {
+            grid-template-columns: repeat(3, 500px);
+        }
+        &__card {
+            &-title {
+                font-size: 28px;
+            }
+            &-descr {
+                font-size: 16px;
+            }
+        }
+        &__list {
+            &-information {
+                font-size: 16px;
+            }
+        }
+        &__category {
+            &-title {
+                font-size: 16px;
+            }
+            &-list {
+                font-size: 14px;
+            }
+        }
+    }
+    .additional {
+        &__title {
+            font-size: 26px;
+            margin-bottom: 30px;
+        }
+        &__item {
+            &-text {
+                font-size: 20px;
+            }
+        }
+    }
+}
 @media (max-width: 1625px) {
     .container {
         max-width: 1550px;
@@ -25,6 +68,12 @@
                     width: 200px;
                 }
             }
+        }
+    }
+    .services {
+        max-width: 1550px;
+        &__cards {
+            grid-template-columns: repeat(3, 450px);
         }
     }
 }
@@ -55,6 +104,9 @@
             height: 705px;
         }
     }
+    .services {
+        max-width: 1470px;
+    }
 }
 @media (max-width: 1470px) {
     .container {
@@ -78,6 +130,9 @@
                 font-size: 16px;
             }
         }
+    }
+    .services {
+        max-width: 1400px;
     }
 }
 @media (max-width: 1400px) {
@@ -125,6 +180,12 @@
         }
         &__right {
             height: 705px;
+        }
+    }
+    .services {
+        max-width: 1320px;
+        &__cards {
+            grid-template-columns: repeat(3, 400px);
         }
     }
 }
@@ -193,6 +254,12 @@
             }
         }
     }
+    .services {
+        max-width: 1200px;
+        &__cards {
+            grid-template-columns: repeat(2, 520px);
+        }
+    }
 }
 @media (max-width:1200px) {
     .container {
@@ -258,6 +325,19 @@
             }
         }
     }
+    .services {
+        padding: 30px 0;
+        max-width: 993px;
+        &__title {
+            font-size: 30px;
+        }
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__cards {
+            grid-template-columns: repeat(2, 450px);
+        }
+    }
 }
 @media (max-width:993px) {
     .main {
@@ -277,6 +357,30 @@
             }
         }
     }
+    .services {
+        &__cards {
+            display: none;
+            &-swiper {
+                display: block;
+            }
+        }
+        &__btn {
+            font-size: 14px;
+            padding: 20px 0;
+            &-arrow {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+    .additional {
+        &__item {
+            padding: 10px;
+            &-text {
+                font-size: 14px;
+            }
+        }
+    }
 }
 @media (max-width:765px) {
     .main {
@@ -287,6 +391,44 @@
         }
         &__list {
             margin-bottom: 60px;
+        }
+    }
+    .services {
+        min-height: 1148px;
+        &__header {
+            align-items: start;
+            flex-direction: column;
+            gap: 10px;
+        }
+        &__card {
+            height: 400px;
+            &-title {
+                font-size: 18px;
+                margin-bottom: 16px;
+            }
+            &-descr {
+                font-size: 16px;
+            }
+        }
+        &__category {
+            &-link {
+                display: none;
+            }
+        }
+        &__btn {
+            font-size: 14px;
+            padding: 10px;
+            justify-content: start;
+            line-height: 120%;
+            text-align: left;
+            &-text {
+                max-width: 220px;
+                
+            }
+            &-arrow {
+                width: 40px;
+                height: 40px;
+            }
         }
     }
     .advantages {
@@ -318,6 +460,43 @@
                 }
             }
         }
+    }
+    .services {
+        &__container {
+            padding: 40px 16px;
+        }
+        &__card {
+            width: 300px;
+            height: 316px;
+            padding: 20px 16px;
+            &-title {
+                font-size: 22px;
+                margin-bottom: 5px;
+            }
+            &-descr {
+                font-size: 14px;
+                margin-bottom: 20px;
+            }
+            &-list {
+                margin-bottom: 20px;
+            }
+        }
+        &__list {           
+            &-item {
+                margin-bottom: 10px;
+            }
+            &-information {
+                font-size: 14px;
+            }
+        }
+        &__category {
+            &-title {
+                font-size: 14px;
+            }
+        }
+    }
+    .additional {
+        padding: 26px 16px;
     }
 }
 @media (max-width:450px) {
@@ -396,6 +575,11 @@
             &-descr {
                 font-size: 14px;
             }
+        }
+    }
+    .services {
+        &__container {
+            padding: 45px 10px;
         }
     }
 }
