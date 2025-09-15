@@ -186,6 +186,24 @@
             color: $whiteColor2;
         }
     }
+    &__subheader {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 6px;
+        display: none;
+        &-img {
+            object-fit: cover;
+        }
+        &-text {
+            max-width: 217px;
+            font-family: 'Helveticaneucyr_regular', Arial, Helvetica, sans-serif; 
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 100%;
+            color: $whiteColor2
+        }
+    }
 }
 .additional {
     max-width: 1640px;

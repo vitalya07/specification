@@ -372,6 +372,13 @@
                 height: 50px;
             }
         }
+        &__header {
+            margin-bottom: 30px;
+        }
+        &__subheader {
+            display: flex;
+            margin-bottom: 20px;
+        }
     }
     .additional {
         &__item {
@@ -381,6 +388,7 @@
             }
         }
     }
+    
 }
 @media (max-width:765px) {
     .main {
